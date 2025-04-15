@@ -1,3 +1,4 @@
+#TAC-LENS
 # 📄 Terms and Conditions Summarizer 🤯
 
 *Cut through the legal jargon with ease.*
@@ -29,6 +30,30 @@ The *Terms and Conditions Summarizer* is a powerful tool that simplifies complex
 7. Select the *extracted plugin folder*  
 
 That’s it! Your summarizer is now ready to go.
+
+---
+
+### 🔐 Add Your Groq API Key
+
+Before using the summarizer, you need to add your **Groq API key**:
+
+1. Open the plugin folder you extracted.
+2. Navigate to the file:  
+   ```
+   /script.js
+   ```
+3. You’ll see something like:
+   ```js
+   const apikey = "YOUR_API_KEY_HERE";
+   ```
+4. Replace `"YOUR_API_KEY_HERE"` with your actual Groq API key:
+   ```js
+   const GROQ_API_KEY = "sk-xxxxxx..."; // your real key
+   ```
+5. **Save** the file.
+6. Go back to `chrome://extensions`, and click **Reload** on the plugin.
+
+> ⚠️ **Note:** Never share your API key publicly or commit it to GitHub.
 
 ---
 
